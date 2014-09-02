@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    hyphens: none;
+}
+
+/* MENU */
+
+.top{
+    position: relative;
+    margin:0 auto;
+    font-size: 100%;
+    height: 201px;
+    width: 1200px;
+    background-color: #ecedee;
+    }
+
+    .name{
+        text-align: center;
+        
+        color: #424242;
+        font-size: 48px;
+        letter-spacing : 3.79px;
+        
+        position: relative;
+        top: 45px;
+        }
+    
+    .navigation{        
+        margin: 0 auto;
+        width: 311px;
+        height: 27px;
+        /*list-style-type: none;*/
+        }
+        
+    .navigation li{
+        display: inline; 
+        }
+
+    #menu1{
+        position: relative;
+        top: 90px;
+        
+        font-size: 24px;
+        
+        float: left;
+        }
+
+    #menu2{
+        position: relative;
+        top: 90px;
+        
+        font-size: 24px;
+        
+        float: right;
+        }
+        
+    #menu2 a:link{
+        text-decoration: none;
+        color: #010101;
+    }
+    
+    #menu2 a:hover{
+        color: #F37744;
+    }
+    
+    #menu2 a:visited{
+        color: #010101;
+    }
+    
+    #menu1 a:link{
+        text-decoration: none;
+        color: #F37744;
+    }
+    
+/* DESCRIPTION */      
+.description{
+    position: relative;
+    margin: 0 auto;
+    
+    /* border-style: solid;
+    border-color: red; */
+    
+    width: 1200px;
+    height: 100%;
+    
+    margin: auto;
+    top: 43px;
+    }
+    
+.title1 {
+    position: relative;
+    text-align: center;
+    
+    color: #F37744;
+    font-size: 48px;
+    
+    }
+
+.test{
+    /* border-style: solid; */
+    display: table;
+    margin: 0 auto;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 45px;
+    width: 1100px;
+    }
+    
+.test div{
+    /* border-style: solid; */
+    display: table-cell;
+    height: 100%;
+    cursor: pointer;
+    
+    padding-left: 35px;
+    }
+    
+    .subtitle{
+        width: 300px;
+        color: #010101;
+        font-size: 36px;
+        text-align: center;
+        }
+
+    .test div:hover .subtitle{
+        color: #1692CA;
+        }
+
+    .snip{
+        padding-top: 6px;
+        padding-left: 10px;
+        
+        width: 300px;
+        color: #010101;
+        font-size: 24px;
+        }
+    
+.click .subtitle{
+    color: #1692CA;
+    }
+    
+/* PROJECTS */
+.content {
+    width: 1200px;
+    height: 500px;
+    background-color: #ecedee;
+    
+    position: relative;
+    margin:0 auto;
+    top: 114px;
+    }
+
+.title2 {
+    position:relative;
+    text-align: center;
+    top: 2px;
+    
+    font-family : Myriad Pro;
+    font-size : 48px;
+    color : #1792CB;
+    }
+    
+#UX, #IA, #ARCH {
+    height: auto;
+    width: 1200px;
+    background-color: #ecedee;
+    
+    position: absolute;
+    margin:0 auto;
+    top: 42px;
+    } 
+    
+.project{
+    position: relative;
+    margin: 50px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    overflow: hidden;
+    
+    width: 1100px;
+    /* height: 300px; */
+    
+    max-height: 326px;
+    
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.15);
+    
+    -moz-transition: max-height 0.5s;
+    -ms-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+    -webkit-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+    }
+
+    .intro{                
+        /* border-style: solid; */
+        position: absolute;
+        width: 401px;
+        height: 300%;
+        }
+        
+        /* .logo{
+            display: table-cell;
+            height: 200px;
+            width: 401px;
+            
+            vertical-align: middle;
+            } */
+            
+            /* .logo img{
+                display: block;
+                margin: 0 auto;
+                
+                width: 240px;
+                height: 150px;
+                } */
+
+        .text{
+            position: absolute;
+            
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-left: 50px;
+            
+            font-size : 18px;
+            color : #010101;
+        }
+            
+        
+    .sample{
+        /* border-style: solid; */
+        float: right;
+        
+        height: auto;
+        width: auto;
+        }
+
+/* CHANGE HERE */
+.project.expanded{
+    max-height: 5000px;
+    /* height: 3709px; */
+}
+
+
+/* .sample.expanded{
+    float: right;
+    
+    height: 400px;
+    width: auto;
+    } */
