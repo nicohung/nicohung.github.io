@@ -1,207 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="my_jquery_functions.js"></script>
-    
-    <!-- Google Analystics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-55409211-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Nicolas Hung</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/76cd8c42a6.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
+	<nav>
+		<a class="site-logo" href="../index.html">Nicolas Hung</a>
+		<ul class="main-menu">
+			<li class="menu-item"><a href="/projects.html">Projects</a></li>
+			<li class="menu-item"><a href="/resume.html">About & Resume</a></li>
+		</ul>
+	</nav>
+	
+	<div class="content">
+		
+		<div class="section-intro">
+	<!--		<p class="paragraph-large">Nicolas Hung</p>-->
+	<!--		<p class="paragraph-small">M.S. Information, Human Computer Interaction (HCI) - University of Michigan<br>B.S. Architecture - University of Michigan</p>-->
 
-<div class = "top">
+			<h1>Welcome.</h1>
+			<h1>My name is Nicolas Hung.</h1>
+			<h1>I am a UX Designer & Researcher based in NYC. </h1>
 
-    <p class="name">Nicolas Hung</p>
+		</div>
 
-    <ul class = "navigation">
-        <li id="menu1"><a href="index.html"><p>Meet Me</p></a></li>
-        <li id="menu2"><a href="assets/Nicolas_Hung_Resume.pdf" target="_blank">
-            <p>Resume</p></a></li>
-    </ul>
+		<div class="projects">
+			<h2 class="section-title">Some of my projects:</h2>
 
-</div>
+			<div class="project-list">
+				<div class="card">
+					<a href="projects/project-1.html">
+						<img class="thumbnail" src="assets/hartz/thumb.jpg">
+					</a>
+					<p class="category">PETCARE RETAIL</p>
+					<a class="card-title" href="projects/project-1.html">Hartz</a>
+					<p class="paragraph-small">Products and learning resources for pet owners.</p>
+				</div>
 
-<div class = "description">
+				<div class="card">
+					<a href="projects/project-8.html">
+						<img class="thumbnail" src="/assets/bls/thumb.jpg">
+					</a>
+					<p class="category">EDUCATION</p>
+					<a class="card-title" href="projects/project-8.html">Brooklyn Law School</a>
+					<p class="paragraph-small">Revamping school online precense.</p>
+				</div>
 
-    <p class = "title1">What I do</p>
+				<div class="card">
+					<a href="projects/project-3.html">
+						<img class="thumbnail" src="/assets/workfront/thumb.jpg">
+					</a>
+					<p class="category">SAAS</p>
+					<a class="card-title" href="projects/project-3.html">Workfront</a>
+					<p class="paragraph-small">Project management software brochure website.</p>
+				</div>
 
-    <div class = "test"> <!-- to keep centered -->
-        
-        <div id = "d1">
-        <p class="subtitle"> User Experience Design </p><br>
-        <p class="snip">I embrace and pursue co-creational design, the belief 
-        that all stakeholders have equal saying when dealing with solutions.</p>
-        </div>
+				<div class="card">
+					<a href="projects/project-4.html">
+						<img class="thumbnail" src="/assets/deercreek/thumb.jpg">
+					</a>
+					<p class="category">AGRICULTURE</p>
+					<a class="card-title" href="projects/project-4.html">Deer Creek Seed</a>
+					<p class="paragraph-small">Seed wholesale ecommerce platform.</p>
+				</div>
 
-        <div id ="d2">
-        <p class="subtitle"> Information Architecture </p><br>
-        <p class="snip">I am passionate about process and believe they are 
-        necessary to architect novel, well rounded, value generating solutions.</p>
-        </div>
-
-        <div id ="d3">
-        <p class="subtitle"> Architectural Design </p><br>
-        <p class="snip">A background in Architecture gave me the ability to solve 
-        problems holistically in both physical and perceptual ways.</p>
-        </div>
-    
-    </div>
-       
-</div>
-
-<div class = "content">
-
-    <div id = "UX">
-    
-    <p class = "title2">5 Projects for UX</p>
-                
-        <a href="assets/Contactive.jpg"> <!-- dummy link -->
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Contactive</p><br>
-                    <p>Aligned company interests with those of users to derive use case escenarios.</p><br>
-                    <p>Designed experience while coordinating with project manager and UX director, resulting in more accurate caller recognition.</p><br>
-                </div>
-            </div>
-            <img class="sample" src="assets/Contactive.jpg">
-        </div>
-        </a>
-
-
-        <a href="assets/Pixable.gif">
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Pixable</p><br>
-                    <p>Adapted existing design guidelines to web platform.</p><br>
-                    <p>Analyzed competitor products, flows and prioritization of functions to later incorporate onto Pixable.</p><br>
-                </div>
-            </div>
-            <img class="sample" src="assets/Pixable.gif">
-        </div>
-        </a>
-        
-        <a href="Talkid.png"> <!-- dummy link -->
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Talkid</p><br>
-                    <p>Lead both divergent and convergent brainstorming sessions.</p><br>
-                    <p>Derived final interface from team brainstorming ideas and project values.</p><br>
-                </div>
-            </div>
-            <img class="sample" src="assets/Talkid.png">
-        </div>
-        </a>
-        
-        <a href="Savvy.jpg"> <!-- dummy link -->
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Savvyy Languages</p><br>
-                    <p>Managed and oversaw usability testing sessions.</p><br>
-                    <p>Mapped website architecture to understand user experience flow.</p><br>
-                    <p>Edited all reports to present a consistent package for our client.</p><br>
-                </div>
-            </div>
-            <img class="sample" src="assets/Savvy.jpg">
-        </div>
-        </a>
-        
-        <a href="Eureka.jpg"> <!-- dummy link -->
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Eureka Book Explorer</p><br>
-                    <p>Interviewed potential users on-site.</p><br>
-                    <p>Illustrated layouts to consolidate multiple design ideas.</p><br>
-                    <p>Developed mid-fi prototype to execute usability testing for user feedback</p><br>
-                </div>
-            </div>
-            <img class="sample" src="assets/Eureka.jpg">
-        </div>
-        </a>
-
-    </div>
-    
-    <div id = "IA">
-    
-        <p class = "title2">2 Projects for IA</p>
-        
-        <a href="Starbucks.gif"> <!-- dummy link -->
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Starbucks</p><br>
-                    <p>This 2hr exercise was aimed at approaching Information Architecture holistically.</p><br>
-                    <p>Rather than jumping straight into design, analysis on the given information lead to an overall product and experience strategy.</p><br>
-                    <p>The strategy itself later guided the objectives of the design in its first iterations.</p><br>
-                </div>
-            </div>
-            <img class="sample" src="assets/Starbucks.gif">
-        </div>
-        </a>
-
-        <a href="Coarch.jpg"> <!-- dummy link -->
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Co-Creative Architecture</p><br>
-                    <p>A new process to make Architecture through ethnographic research rather than tinkering with form alone.</p><br>
-                </div>
-            </div>
-            <img class="sample" src="assets/Coarch.jpg">
-        </div>
-        </a>
-
-    </div>
-    
-    <div id = "ARCH">
-    
-        <p class = "title2">2 Projects for Architecture</p>
-    
-        <a href="assets/EcoOffice.jpg"> <!-- dummy link -->
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Eco Office</p><br>
-                    <p>In charge of curtain wall design and construction.</p><br>
-                    <p>Researched and coordinated with manufacturers regarding product specifications
-                    and proper implementation.</p>
-                </div>
-            </div>
-            <img class="sample" src="assets/EcoOffice.jpg" style="width:699px; height:auto;">
-        </div>
-        </a>
-
-        <a href="assets/BasquePelota.jpg"> <!-- dummy link -->
-        <div class = "project">  
-            <div class = "intro">
-                <div class = "text">
-                    <p>Basque Pelota Training Court</p><br>
-                </div>
-            </div>
-            <img class="sample" src="assets/BasquePelota.jpg" style="width:699px; height:auto;">
-        </div>
-        </a>
-    </div>
-    
-</div>
-
+			</div>
+		</div> 
+	
+	</div>
+	
+	<div class="contact">
+		<div class="contact-content">
+			<p class="card-title">Want to get in touch?</p>
+			<h2>Send me an <a class="a-styled" href="mailto:nickohg@gmail.com?subject=Interested in your portfolio">Email</a>.</h2>
+			<h2>Message me on <a class="a-styled" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nicohung">Linkedin</a>.</h2>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="footer-items">
+			<a href="https://www.linkedin.com/in/nicohung">LINKEDIN</a>
+			<a href="https://ux.stackexchange.com/users/80407/nicolas-hung">UX EXCHANGE </a>
+		</div>
+	</div>
+	
 </body>
-
-<script src="myScript.js"></script>
-
+	
 </html>

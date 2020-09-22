@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Nicolas Hung - US Foods</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="https://kit.fontawesome.com/76cd8c42a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav id="nav">
+		<a class="site-logo" href="../index.html">Nicolas Hung</a>
+		
+		<ul class="main-menu">
+			<li class="menu-item"><a href="/projects.html">Projects</a></li>
+			<li class="menu-item"><a href="/resume.html">About & Resume</a></li>
+		</ul>
+	</nav>
+	
+	<div class="page-title">
+		<h1>US Foods</h1>
+		<h2>Facilitating restaurant supply shopping and tracking.</h2>
+		<img src="/assets/usfoods/banner.jpg">
+	</div>
+
+	<div class="project-content">
+		
+		<div class="local-nav">
+			<ol class="local-nav-items">
+				<li><a href="#context-problem">Context & Problem</a></li>
+				<li><a href="#what-we-did">What We Did</a></li>
+				<li><a href="#findings-1">Key Findings</a></li>
+				<li><a href="#brainstorming">Brainstorming</a></li>
+				<li><a href="#recommendations">Recommendations</a></li>
+				<li><a href="#challenges-learnings">Challenges & Learnings</a></li>
+				<li><a href="#reference">Reference Material</a></li>
+			</ol>
+			<br><br><br><br>
+			<a href="#nav"><i class="fas fa-arrow-up"></i>&nbsp;&nbsp;Back To Top</a>
+		</div>
+		
+		<div class="project-details">
+			
+			<div class="context-problem" id="context-problem">
+				<h2 id="first-h2">1. Context & Problem</h2>
+				<ul>
+					<li>US Foods is one of the largest distributors of produce nationwide servicing restaurants and large institutions.</li>
+					<li>Traditionally, customers received scheduled shipments of items in bulk while purchasing special, limited quality, items through third parties such as Restaurant Depot.</li>
+					<li>Purchasing from different vendors costs both administrative paperwork and time for customers.</li>
+					<li>Therefore US Foods introduced a new service allowing shipmen of special items in low quantities on-demand.</li>
+					<li>We were tasked to introduce this on-demand service while also optimizing the overall ordering experience.</li>
+				</ul>
+			</div>
+
+			<div class="what-we-did" id="what-we-did">
+				<h2>2. What We Did</h2>
+				<ul>
+					<li>Collected feedback regarding current experience. </li>
+					<li>Redesign ordering, checkout and tracking interfaces. </li>
+				</ul>
+
+			</div>
+
+			<div class="findings-1" id="findings-1">
+				<h2>3. Key Findings</h2>
+				<ol>
+					<li>Lack of consistency in product cards evolved throughout the years resulting in a cluttered interface.</li>
+					<li>Scanning product listings behavior is similar to B2C, accurate images provide fastest recognition while product and brand name are used for confirmation.</li>
+					<li>Need for on-demand specialty items, in custom amounts, and shipped separately from usual distributor truck.</li>
+					<li>Order review screen lacks hierarchy, resulting in difficulty understanding what will be received when.</li>
+					<li>Customers need more accurate and transparent tracking information to plan their day. Common B2C tracking leaves too many hours for guessing arrival of shipment.</li>
+				</ol>
+				
+			</div>
+
+			<div class="brainstorming" id="brainstorming">
+				<h2>4. Brainstorming</h2>
+
+				<h6>Products are either produce delivered by truck or courier, or large kitchen equipment.</h6>
+				<ul>
+					<li>Map all product variations and delivery options to cover all escenarios. </li>
+					<li>Create product cards presenting crucial information in an non-overwhelming manner.</li>
+					<li>Respect well established ecommerce shopping behavior. </li>
+				</ul>
+				<img style="border:none; margin-top: 30px; margin-bottom: 0px;" src="/assets/usfoods/sketch1.jpg">
+
+				<h6>A single order contains products shipped on different dates by private truck or courier. Options are selected before checkout. </h6>
+				<ul>
+					<li>An order can have multiple shipment dates and methods.</li>
+					<li>Shipments are tracked individually regardless of order. </li>
+					<li>Track shipments for each day.</li>
+				</ul>
+				<img style="border:none; margin-top: 30px; margin-bottom: 0px;" src="/assets/usfoods/task1.jpg">
+				<img style="border:none; margin-top: 50px; margin-bottom: 0px;" src="/assets/usfoods/sketch2.jpg">
+
+			</div>
+
+			<div class="recommendations" id="recommendations">
+				<h2>5. Recommendations</h2>
+				<h6>Product cards with consistent components for specific information customers look for.</h6>
+				<ul>
+					<li>Adaptable to both card and list layouts.</li>
+					<li>Surface important features to differentiate similar products. </li>
+					<li>Ability to compose the entire order from the listing page.</li>
+				</ul>
+				<img style="border:none; margin-bottom: 30px;" src="/assets/usfoods/rec1.jpg">
+				<img style="border:none; margin-top: 0px;" src="/assets/usfoods/rec2.jpg">
+
+				<h6>Order split by shipment groups for restaurants to plan around availability of ingredients.</h6>
+				<ul>
+					<li>Reviewing order is also the main screen to finish composing item quantities.</li>
+					<li>Group items shipped by courier vs private trucks.</li>
+					<li>Group courier items by shipping date.</li>
+				</ul>
+				<img style="border:none;" src="/assets/usfoods/rec3.jpg">
+
+				<h6>Make use of tracking shipment information for customers to know exactly when to expect delivery. </h6>
+				<ul>
+					<li>Visualization of private truck in-route. </li>
+					<li>Courier tracking integration to avoid checking on courier website.</li>
+					<li>Update notifications for issues such as unforeseen delays, broken items or missing stock.</li>
+				</ul>
+				<img style="border:none;" src="/assets/usfoods/rec4.png">
+				
+			</div>
+
+			<div class="challenges-learnings" id="challenges-learnings">
+				<h2>6. Challenges & Learnings</h2>
+				<p>Getting acquainted and learning the multiple current and legacy products, pricing models and product characteristics proved to be the major obstacle. Little documentation of system specifications and rules were provided, resulting in discovering new information in every meeting. System behavior mainly existed in stakeholder knowledge.</p>
+				<p>To solve this issue, we created multiple interim documents documenting specifications and functional behavior. A running list of questions was updated every time clarification was needed. None of these documents were meant for the client but have taken much of the team’s effort to maintain and kept us coordinated throughout the project. </p>
+
+			</div>
+
+			<div class="reference" id="reference">
+				<h2>7. Reference Material</h2>
+				<p>For a deep dive into the project, please reference the following links:</p>
+				<ul>
+					<li><a target="_blank" rel="noopener noreferrer" href="https://3jdo2a.axshare.com/#g=1&p=brainstorm">Brainstorming&nbsp;&nbsp;<i class="fas fa-external-link-square-alt"></i></a> 
+					<li><a target="_blank" rel="noopener noreferrer" href="https://3jdo2a.axshare.com/#g=1&p=product_listing_-_grid">Wireframes&nbsp;&nbsp;<i class="fas fa-external-link-square-alt"></i></a> 
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="conclusion">
+		<img src="/assets/usfoods/banner2.jpg">
+	</div>
+	
+	<div class="more">
+		<h2>More Projects</h2>
+		
+		<div class="project-list">
+			<div class="card">
+				<a href="#project-1">
+					<img class="thumbnail" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7b633b91359269.5e300c5bccfc2.jpg">
+				</a>
+				<a class="card-title" href="#project-1">Project Title</a>
+				<p class="paragraph-small">Project description goes here</p>
+			</div>
+
+			<div class="card">
+				<a href="#project-2">
+					<img class="thumbnail" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/cb908791359269.5e300c5bd01d7.gif">
+				</a>
+				<a class="card-title" href="#project-2">Project Title</a>
+				<p class="paragraph-small">Project description goes here</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="contact">
+		<div class="contact-content">
+			<p class="card-title">Want to get in touch?</p>
+			<h2>Send me an <a class="a-styled" href="mailto:nickohg@gmail.com?subject=Interested in your portfolio">Email</a>.</h2>
+			<h2>Message me on <a class="a-styled" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nicohung">Linkedin</a>.</h2>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="footer-items">
+			<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nicohung">LINKEDIN</a>
+			<a target="_blank" rel="noopener noreferrer" href="https://ux.stackexchange.com/users/80407/nicolas-hung">UX EXCHANGE </a>
+		</div>
+	</div>
+	
+	
+</body>
+	
+</html>
