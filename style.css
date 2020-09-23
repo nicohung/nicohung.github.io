@@ -104,7 +104,7 @@ body{
 
 p {
 	font-size: 16px;
-	line-height: 2;
+	line-height: 1.6;
 	font-weight: 400;
 	margin-bottom: 30px;
 }
@@ -120,8 +120,9 @@ h1 {
 
 h2 {
 	font-size: 36px;
-	line-height: 90%;
+	line-height: 1.6;
 	font-weight: 400;
+	margin-top: 70px;
 }
 
 #first-h2 {
@@ -131,19 +132,16 @@ h2 {
 
 .page-title h2 {
 	color:#808080;
-	line-height: 120%;
+	font-size: 30px;
+	line-height: 1.6;
 	margin-bottom: 50px;
-}
-
-.project-details h2 {
-	margin-top: 80px;
 }
 
 h3 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 30px;
-	line-height: 46px;
+	line-height: 1.6;
 	font-weight: 400;
 }
 
@@ -151,7 +149,7 @@ h4 {
 	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 36px;
-	line-height: 46px;
+	line-height: 1.6;
 	font-weight: 600;
 }
 
@@ -159,11 +157,13 @@ h5 {
 	font-size: 44px;
 	font-weight: 400;
 	color: #43464d;
+	line-height: 1.6;
 }
 
 h6 {
 	font-size: 20px;
 	margin-bottom: 30px;
+	line-height: 1.6;
 }
 
 a:link{
@@ -192,6 +192,10 @@ a:active{
 
 i {
 	font-size: 17px;
+}
+
+button {
+	margin-bottom: 15px;
 }
 
 .button {
@@ -274,7 +278,12 @@ img{
 }
 
 .contact-content {
-	padding: 50px 60px 60px 60px;
+	padding: 50px 60px 70px 60px;
+}
+
+.contact-content h2 {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .a-styled {
@@ -293,7 +302,8 @@ img{
 .footer-items {
  	text-align: center;
 	opacity: 0.8;
-	line-height: 20px;
+	font-size: 14px;
+	line-height: 1.6;
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -301,11 +311,6 @@ img{
 
 .footer a {
   margin: 0px 20px 0px 20px;
-}
-
-.site-logo {
-	font-size: 24px;
-	text-decoration: underline;
 }
 
 .section-title {
@@ -338,7 +343,7 @@ img{
 .project-details li {
 	margin: 0 0 15px 0;
 	/* font-size: 16px; */
-	line-height: 2;
+	line-height: 1.6;
 	font-weight: 400;
 }
 
@@ -386,11 +391,6 @@ img{
 }
 
 .findings img {
-	/* border-style: solid; */
-	/* border-color: #cecece; */
-	/* border-width: 1px; */
-
-	width: 100%;
 	object-fit: scale-down;
 }
 
@@ -402,17 +402,19 @@ img{
 	margin-top: 0px;
 }
 
+.findings-1 img {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
 .recommendations{
 	margin-bottom: 80px;
 }
 
 .recommendations img {
-	border-style: solid;
-	border-color: #cecece;
-	border-width: 1px;
-
-	margin-bottom: 70px;
+	border: none;
 	margin-top: 30px;
+	margin-bottom: 80px;
 }
 
 .recommendations .diagram {
@@ -444,6 +446,7 @@ q {
 	top: 50px;
 	align-self: flex-start;
 	font-size: 13px;
+	margin-top: 15px;
 	/* background-color: rgb(215, 248, 250); */
 }
 
@@ -463,6 +466,10 @@ q {
 
 .conclusion {
 	margin-top: 150px;
+}
+
+.contact-title {
+	font-size: 20px;
 }
 
 .lightbox {
@@ -533,11 +540,13 @@ q {
 	
 	/* project detail -------------------------------------------------*/
 	.page-title {
-		margin: 50px 30px 0px 30px;
+		margin: 50px 15px 40px 15px;
 	}
 
 	.page-title h2 {
-		margin-bottom: 40px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 22px;
 	}
 
 	.local-nav {
@@ -545,11 +554,7 @@ q {
 	}
 
 	.project-content {
-		margin: 0px 30px 0px 30px;
-	}
-
-	.project-details h2 {
-		margin-top: 40px;
+		margin: 0px 15px 0px 15px;
 	}
 
 	.project-details p {
@@ -575,14 +580,9 @@ q {
 		margin: 0 10px 0 10px;
 	}
 
-	.findings-2,
-	.recommendations {
-		margin-bottom: -20px;
-	}
-
 	.finding-card {
 		flex: 1 1 60%;
-		margin: 0 15px 15px 15px;
+		margin: 0 0 15px 0;
 	}
 
 	.findings img {
@@ -598,11 +598,12 @@ q {
 	}
 
 	.conclusion {
-		margin-top: 30px;
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 
 	.more {
-		margin: 40px 30px 0px 30px;
+		margin: 40px 15px 0px 15px;
 		/*background-color: aqua;*/
 	}
 
@@ -620,6 +621,28 @@ q {
 		margin-bottom: 0px;
 	}
 
+	.findings-1 img {
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	.recommendations img {
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	.stat {
+		margin: 0 15px 0 15px;
+	}
+
+	.stat:first-child {
+		margin-left: 25px;
+	}
+
+	.results-learnings p {
+		margin-top: 0;
+	}
+
 
 	/* homepage -------------------------------------------------------*/
 	nav {
@@ -627,9 +650,10 @@ q {
 	}
 	.site-logo {
 		font-size: 18px;
+		margin-right: 35px;
 	}
 	.main-menu {
-		justify-content: space-between;
+		justify-content: start;
 		list-style: none;
 		padding-left: 0px;
 		font-size: 14px;
@@ -637,7 +661,7 @@ q {
 		margin-bottom: 10px;
 		/*background-color: aqua;*/
 	}
-	.menu-item {
+	.main-menu li:last-child {
 		margin-right: 0px;
 	}
 	.content {
@@ -645,7 +669,7 @@ q {
 		margin-right: 15px;
 	}
 	.section-intro {
-		margin: 50px 0px 65px 0px;
+		margin: 50px 0px 40px 0px;
 	}
 	.projects {
 		margin-right: 0px;
@@ -665,29 +689,70 @@ q {
 		margin-right: 0px;
 		margin-left:0px;
 	}
+	.category {
+		margin-bottom: 10px;
+		font-size: 11px;
+	}
 	.contact {
-		margin: 0px;
+		margin: 20px 0 0 0;
 		background-color: #f4f4f4;
 	}
 	.contact-content {
-		padding: 15px 30px 15px 30px;
+		padding: 30px 30px 30px 30px;
 		text-align: center;
+	}
+	.contact-content h2 {
+		margin-bottom: 20px;
 	}
 	.footer {
   		padding: 40px 15px 40px 15px;
+	}
+	.footer-items {
+		font-size: 12px;
+	}
+	.button {
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+
+	i {
 		font-size: 14px;
 	}
+
 	p, q, li {
 		font-size: 14px;
+		line-height: 1.6;
 	}
+	
+	ul, ol {
+		padding: 0 0 0 20px;
+	}
+
 	h1 {
-		font-size: 40px;
-		line-height: 140%;
-		font-weight: 300;
+		font-size: 32px;
+		line-height: 1.3;
+		font-weight: 400;
 	}
+
 	h2 {
-		font-size: 28px;
-		line-height: 110%;
-		font-weight: 300;
+		font-size: 26px;
+		margin-top: 40px;
+		line-height: 1.6;
+		font-weight: 400;
+	}
+
+	h3 {
+		font-size: 22px;
+		line-height: 1.6;
+	}
+
+	h4 {
+		font-size: 26px;
+	}
+
+	h6 {
+		font-size: 16px;
+		margin-top: 20px;
+		line-height: 1.6;
 	}
 }
