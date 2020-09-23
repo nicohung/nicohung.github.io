@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html {
+body, body * {
 	font-family: Montserrat, sans-serif;
 }
 
@@ -685,7 +685,7 @@ q {
 	}
 	.card {
 		flex: 1 1 100%;
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 		margin-right: 0px;
 		margin-left:0px;
 	}
