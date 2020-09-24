@@ -272,6 +272,12 @@ img{
 	margin: 0px 0px 20px 0px;
 }
 
+.card a:hover ~ a {
+	color: #ff8c00;
+	font-weight: 600;
+	transition-duration: 0.2s;
+}
+
 .contact {
 	margin: 50px 50px 0px 50px;
 	background-color: #f4f4f4;
