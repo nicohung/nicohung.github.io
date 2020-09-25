@@ -517,7 +517,7 @@ q {
 	border-width: 1px;
 
 	/* padding: 20px; */
-	background-color: white;
+	background-color: #f0eeef;
 	
 	min-height: 0;
 	/* max-width: 100%; */
@@ -526,12 +526,12 @@ q {
 	box-sizing:border-box;
 }
 
-.lightbox-content p {
+/* .lightbox-content p {
 	margin: 0px;
 	padding-top: 30px;
 	
 	box-sizing:border-box;
-}
+} */
 
 .lightbox:target {
 	/** Remove default browser outline */
