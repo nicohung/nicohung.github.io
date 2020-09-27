@@ -55,9 +55,12 @@ nav {
 	justify-content: left;
 }
 
+.content p i {
+	font-size: 13px;
+}
+
 .page-title {
 	margin: 100px 50px 80px 50px;
-	
 }
 
 .page-title h1 {
@@ -388,6 +391,24 @@ img{
 	margin: 0 15px 0 15px;
 }
 
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.grid-card {
+	display: flex;
+	flex-direction: column;
+	border-style: solid; 
+  
+	width: 23%;
+  	box-sizing: border-box;
+  	margin-bottom: 30px;
+}
+
 .findings {
 	display: flex;
 	flex-wrap: wrap;
@@ -594,6 +615,11 @@ q {
 	.persona-card {
 		flex: 1 0 50%;
 		margin: 0 10px 0 10px;
+	}
+
+	.grid-card {
+		flex: 1 0 40%;
+		margin: 0 10px 15px 10px;
 	}
 
 	.finding-card {
