@@ -127,7 +127,7 @@ p:last-child {
 }
 
 h1 {
-	font-size: 44px;
+	font-size: 42px;
 	font-weight: 400;
 }
 
@@ -209,6 +209,7 @@ i {
 
 button {
 	margin-bottom: 15px;
+	border-radius: 5px;
 }
 
 .button {
@@ -252,6 +253,41 @@ img{
 	margin: 100px 0px 100px 0px;
 }
 
+.hp-intro {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center; 
+	margin: 100px 0px 100px 0px;
+	width: 100%;
+
+	/* border-style: solid; */
+}
+
+.hp-intro img {
+	max-width: 100%;
+	min-width: 200px;
+	width: auto;
+  	height: auto;
+	border-radius: 10px;
+	float: left;
+}
+
+.hp-profile-text {
+	flex: 2;
+	line-height: 1.5;
+	margin-right: 50px;
+
+	/* border-style: solid; */
+}
+
+.hp-profile-img {
+	flex: 1;
+
+	/* border-style: solid; */
+}
+
 .project-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -283,6 +319,7 @@ img{
 
 .thumbnail {
 	margin: 0px 0px 20px 0px;
+	border-radius: 10px;
 }
 
 .card a:hover ~ a {
@@ -294,6 +331,7 @@ img{
 .contact {
 	margin: 50px 50px 0px 50px;
 	background-color: #f4f4f4;
+	border-radius: 10px;
 }
 
 .contact-content {
@@ -685,6 +723,10 @@ q {
 		margin-top: 0;
 	}
 
+	video {
+		width: 100%;
+	}
+
 
 	/* homepage -------------------------------------------------------*/
 	nav {
@@ -705,6 +747,19 @@ q {
 	}
 	.main-menu li:last-child {
 		margin-right: 0px;
+		
+	}
+	.hp-intro {
+		flex-direction: column;
+		align-items: flex-start; 
+	}
+	.hp-intro img {
+		float: none;
+		margin-top: 30px;
+		max-width: 100%;
+	}
+	.hp-profile-img {
+		margin-left: 0;
 	}
 	.content {
 		margin-left: 15px;
