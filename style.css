@@ -322,6 +322,19 @@ img{
 	border-radius: 10px;
 }
 
+.gif-div {
+	position: relative;
+}
+
+.static {
+	position: absolute;
+	/* max-width: 730px; */
+}
+
+.static:hover {
+	opacity: 0;
+}
+
 .card a:hover ~ a {
 	color: #ff8c00;
 	font-weight: 600;
