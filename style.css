@@ -326,14 +326,13 @@ img{
 	position: relative;
 }
 
-.static {
+/* .static {
 	position: absolute;
-	/* max-width: 730px; */
-}
+} */
 
-.static:hover {
+/* .static:hover {
 	opacity: 0;
-}
+} */
 
 .card a:hover ~ a {
 	color: #ff8c00;
