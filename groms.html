@@ -43,24 +43,27 @@
 </head>
 
 <body>
-	<nav id="nav">
+	<header role="banner" id="nav">
 		<a class="site-logo" href="/">Nicolas Hung</a>
 		
 		<ul class="main-menu">
 			<li class="menu-item"><a href="/resume">About & Resume</a></li>
 		</ul>
-	</nav>
+	</header>
 	
 	<div class="page-title">
 		<h1>Groms </h1>
 		<h2>Room styler for interior design enthusiasts to curate and visualize spaces.</h2>
 		<p>Role: Information Architect<br>Platform: Webapp</p>
-		<img src="/assets/groms/banner2.jpg">
+		<div class="intro-img">
+			<img src="/assets/groms/banner2.jpg">
+		</div>
+		
 	</div>
 
 	<div class="project-content">
 		
-		<div class="local-nav">
+		<nav role="navigation" class="local-nav">
 			<ol class="local-nav-items">
 				<li><a href="#context-problem">Context & Problem</a></li>
 				<li><a href="#what-we-did">What We Did</a></li>
@@ -72,9 +75,9 @@
 			</ol>
 			<br><br><br><br>
 			<a href="#nav"><i class="fas fa-arrow-up"></i>&nbsp;&nbsp;Back To Top</a>
-		</div>
+		</nav>
 		
-		<div class="project-details">
+		<main role="main" class="project-details">
 			
 			<div class="context-problem" id="context-problem">
 				<h2 id="first-h2">1. Context & Problem</h2>
@@ -98,8 +101,10 @@
 			<div class="brainstorming" id="brainstorming">
 				<h2>3. Brainstorming</h2>
 				<p>A few workshops were with interior stylists to understand the needs and co-create solution ideas. </p>
+				<div class="content-img">
+					<img src="/assets/groms/brain1.jpg">
+				</div>
 				
-				<img style="border:none; margin-top: 30px; margin-bottom: 0px;" src="/assets/groms/brain1.jpg">
 			</div>
 
 			<div class="findings-1" id="findings-1">
@@ -168,7 +173,7 @@
 					<li><a href="https://www.groms.com/">Live Website&nbsp;&nbsp;<i class="fas fa-external-link-square-alt"></i></a> 
 				</ul>
 			</div>
-		</div>
+		</main>
 		
 	</div>
 
@@ -176,7 +181,7 @@
 		<img src="/assets/apc/banner2.jpg">
 	</div> -->
 	
-	<div class="more">
+	<aside role="complementary" class="more">
 		<h2>More Projects</h2>
 		
 		<div class="project-list">
@@ -200,22 +205,22 @@
 				<p class="category">Information Architect, Researcher<br>Website</p>
 			</div>
 		</div>
-	</div>
+	</aside>
 	
-	<div class="contact">
-		<div class="contact-content">
-			<p class="contact-title">Want to get in touch?</p>
-			<h2>Email me at <a class="a-styled" href="mailto:hung.nicolas@gmail.com?subject=Interested in your portfolio">hung.nicolas@gmail.com</a></h2>
-			<h2>Message me on <a class="a-styled" href="https://www.linkedin.com/in/nicohung">Linkedin</a></h2>
+	<footer role="contentinfo" class="footer">
+		<div class="contact">
+			<div class="contact-content">
+				<p class="contact-title">Want to get in touch?</p>
+				<h2>Email me at <a class="a-styled" href="mailto:hung.nicolas@gmail.com?subject=Interested in your portfolio">hung.nicolas@gmail.com</a></h2>
+				<h2>Message me on <a class="a-styled" href="https://www.linkedin.com/in/nicohung">Linkedin</a></h2>
+			</div>
 		</div>
-	</div>
-	
-	<div class="footer">
+
 		<div class="footer-items">
 			<a href="https://www.linkedin.com/in/nicohung">LINKEDIN</a>
 			<a href="https://ux.stackexchange.com/users/80407/nicolas-hung?tab=answers&sort=votes">UX EXCHANGE </a>
 		</div>
-	</div>
+	</footer>
 	
 	
 </body>
