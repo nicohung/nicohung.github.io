@@ -862,6 +862,9 @@ q {
 	.contact-content h2 {
 		margin-bottom: 20px;
 	}
+	#footer-email {
+		font-size: 6vw;
+	}
 	.footer {
   		padding: 0px 15px 0px 15px;
 	}
