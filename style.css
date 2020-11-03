@@ -662,24 +662,44 @@ q {
 		overflow: auto;
 	}
 
-	.target img {
+	.content-img.img-w-5 img {
+		width: 500px;
+	}
+
+	.content-img.img-w-6 img {
+		width: 600px;
+	}
+
+	.content-img.img-w-7 img {
+		width: 700px;
+	}
+
+	.content-img.img-w-8 img {
 		width: 800px;
 	}
 
-	.inventory img {
+	.content-img.img-w-9 img {
+		width: 900px;
+	}
+
+	.content-img.img-w-10 img {
 		width: 1000px;
 	}
 
-	.recommendations .content-img img {
-		width: 600px;
+	.mob-crop {
+		overflow: hidden;
 	}
 
-	.brainstorming img {
-		width: 600px;
-	}
+	.mob-crop img {
+		width: 123%;
+		vertical-align: middle; /* remove the vertical gap under inline level elements */
 
-	.findings-1 .content-img img {
-		width: 500px;
+  		position: relative;
+  		left: 50%;
+  		-webkit-transform: translateX(-50%);
+  		-ms-transform: translateX(-50%);
+  		-o-transform: translateX(-50%);
+  		transform: translateX(-50%);
 	}
 
 	.local-nav {
