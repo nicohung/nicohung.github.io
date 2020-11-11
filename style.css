@@ -566,6 +566,29 @@ q {
 	font-size: 20px;
 }
 
+.two-column {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.column-one{
+	flex: 3 1 60%;
+}
+
+.column-two{
+	flex: 2 1 30%;
+}
+
+.column-two img{
+	margin-top: 30px;
+	margin-right: 50px;
+	min-width: 300px;
+	max-width: 300px;
+}
+
+
 .lightbox {
 	/** Default lightbox to hidden */
 	display: none;
@@ -629,6 +652,7 @@ q {
 	/** Unhide lightbox **/
 	display: block;
 }
+
 
 @media only screen and (max-width : 600px){
 	/* styles for screens up to 600px; (mobile) */
