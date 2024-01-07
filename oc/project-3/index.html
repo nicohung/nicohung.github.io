@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"> 
+	<title>ohmyfood</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/76cd8c42a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class=loader>
+		<img src="./images/loading-loading-forever.gif" alt="Loading spinner">
+	</div>
+
+	<header>
+		<div class="content">
+			<div class="logo">
+				<h1><a href="./index.html">ohmyfood</a></h1>
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<div class="location">
+			<div class="content">
+				<i id="pin" class="fas fa-map-marker-alt" ></i>
+				<p>Paris, Belleville</p>
+			</div>
+		</div>
+
+		<section class="banner">
+			<div class="content">
+				<h2>Book the menu you like</h2>
+				<p>Discover top-of-the-art restaurants we picked for you</p>
+				<input type="submit" value="Explore our restaurants">
+			</div>
+		</section>
+
+		<section class="how-it-works">
+			<div class="content">
+				<h2 class="label">How it works</h2>
+			
+				<div class="steps">
+					<div class="step" id="step-1">
+						<div class="circle">
+							<p>1</p>
+						</div>
+						<div class="icon">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<p>Choose a restaurant</p>
+					</div>
+		
+					<div class="step" id="step-2">
+						<div class="circle">
+							<p>2</p>
+						</div>
+						<div class="icon">
+							<i class="fas fa-list"></i>
+						</div>
+						<p>Create your menu</p>
+					</div>
+		
+					<div class="step" id="step-3">
+						<div class="circle">
+							<p>3</p>
+						</div>
+						<div class="icon">
+							<i class="fas fa-store"></i>
+						</div>
+						<p>Go enjoy it at the restaurant</p>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<section class="restos">
+
+			<div class="content">
+				<h2>Restaurants</h2>
+
+				<div class="listing">
+					<div class="card">
+						<a href="./the-full-palette.html">
+							
+							<div class="image">
+								<p>New</p>
+								<img class="thumbnail" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="The Full Palette">
+							</div>
+						
+							<div class="details">
+								<div class="info">
+									<h3 class="card-title">The Full Palette</h3>
+									<p class="city">New York</p>	
+								</div>
+															
+								<div class="like">
+									<i class="fas fa-heart full-heart"></i>
+									<i class="far fa-heart empty-heart"></i>
+								</div>
+							</div>
+						</a>
+					</div>
+	
+					<div class="card">
+						<a href="./the-enchanted-plate.html">
+							
+							<div class="image">
+								<p>New</p>
+								<img class="thumbnail" src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="The Enchanted Plate">
+							</div>
+						
+							<div class="details">
+								<div class="info">
+									<h3 class="card-title">The Enchanted Plate</h3>
+									<p class="city">New York</p>
+								</div>
+										
+								<div class="like">
+									<i class="fas fa-heart full-heart"></i>
+									<i class="far fa-heart empty-heart"></i>
+								</div>
+							</div>
+						</a>
+					</div>
+	
+					<div class="card">
+						<a href="./bastille.html">
+							
+							<div class="image">
+								<img class="thumbnail" src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Bastille">
+							</div>
+						
+							<div class="details">
+								<div class="info">
+									<h3 class="card-title">Bastille</h3>
+									<p class="city">New York</p>	
+								</div>
+										
+								<div class="like">
+									<i class="fas fa-heart full-heart"></i>
+									<i class="far fa-heart empty-heart"></i>
+								</div>
+							</div>
+						</a>
+					</div>
+	
+					<div class="card">
+						<a href="./le-gourmand.html">
+							
+							<div class="image">
+								<img class="thumbnail" src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le Gourmand">
+							</div>
+						
+							<div class="details">
+								<div class="info">
+									<h3 class="card-title">Le Gourmand</h3>
+									<p class="city">New York</p>
+								</div>							
+			
+								<div class="like">
+									<i class="fas fa-heart full-heart"></i>
+									<i class="far fa-heart empty-heart"></i>
+								</div>
+							</div>
+						</a>
+					</div>
+	
+				</div>
+			</div>
+			
+			
+		</section>
+
+	</main>
+	
+
+	<footer class="footer">
+
+		<div class="content">
+			<p>ohmyfood</p>
+
+			<a href="#" class="s-link">
+				<div class="icon">
+					<i class="fas fa-utensils"></i>
+				</div>
+				Suggest a restaurant
+			</a>
+
+			<a href="#" class="s-link">
+				<div class="icon">
+					<i class="fas fa-hands-helping"></i>
+				</div>
+				Become a partner
+			</a>
+
+			<a href="#">Legal</a>
+			<a href="mailto:customersupport@ohmyfood.com">Contact</a>
+		</div>
+
+	</footer>
+
+</body>
+
+</html>

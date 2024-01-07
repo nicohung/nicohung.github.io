@@ -1,0 +1,317 @@
+/* CSS Document */
+/* MOBILE FIRST --------------------------------*/
+.content {
+  margin: auto;
+}
+
+/* HEADER ----------------------------------------------- */
+.back i {
+  color: #000000;
+  font-size: 20px;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+/* BACK IMAGE ----------------------------------------------- */
+.back-img {
+  position: relative;
+  max-width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.back-img img {
+  width: 100%;
+  transform: translateY(-10%);
+}
+
+/* MENU --------------------------------*/
+.menu .content {
+  padding: 15px 30px 30px 30px;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#simple-heart {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  background-color: #F2F2F2;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  margin-top: -70px;
+  padding-bottom: 80px;
+}
+.menu .label {
+  font-family: "Shrikhand", sans-serif;
+}
+.menu h3 {
+  font-weight: lighter;
+  margin-bottom: 8px;
+}
+.menu .line {
+  width: 40px;
+  border-top: solid;
+  border-color: #99E2D0;
+  margin-bottom: 15px;
+}
+.menu .options {
+  flex-direction: column;
+  display: flex;
+  gap: 2%;
+}
+.menu .item {
+  max-height: 80px;
+}
+.menu .check {
+  height: 80px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px #c7c7c7;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  /* Start hidden but retain opacity 1 when animation at 100% */
+  animation-name: load;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-out;
+  overflow: hidden;
+}
+
+.delay-1 {
+  animation-delay: 0.2s;
+}
+
+.delay-2 {
+  animation-delay: 0.4s;
+}
+
+.delay-3 {
+  animation-delay: 0.6s;
+}
+@keyframes load {
+  0% {
+    opacity: 0;
+    top: 10px;
+    position: relative;
+    /* Adds 10px to the top relative to its own position (does not affect other elements) */
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+    position: relative;
+  }
+}
+.item-name {
+  margin: 15px 0 15px 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-right: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item-name p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item-name .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.item-name .description {
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.price {
+  position: relative;
+  padding-right: 50px;
+}
+
+.price p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.check {
+  background-color: #99E2D0;
+  border-radius: 0 20px 20px 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -65px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+.item:hover .check {
+  margin-right: 0px;
+}
+
+.check-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  /* Default is 1, setting to 0 to avoid squeezing. */
+  transform: rotate(90deg);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.item:hover .check-circle {
+  transform: rotate(360deg);
+}
+
+.check-circle i {
+  color: #99E2D0;
+  margin: 0;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.order input {
+  font-size: 18px;
+  color: white;
+  padding: 15px 80px 15px 80px;
+  border: none;
+  border-radius: 50px;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  box-shadow: 0px 4px 10px #c7c7c7;
+}
+.order input:hover {
+  filter: brightness(110%);
+  box-shadow: 0px 4px 10px #969696;
+}
+
+/* FOOTER ----------------------------*/
+footer {
+  margin-top: 0;
+  display: block;
+  /* justify-content: flex-start; */
+  background-color: #343434;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer .content {
+  padding: 30px 30px 50px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.s-link {
+  display: flex;
+}
+
+.footer .icon {
+  margin: 0 15px 0 0;
+  text-align: center;
+}
+
+.footer i {
+  color: white;
+}
+
+.footer a {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+  /* border: solid; */
+}
+
+.footer p {
+  color: white;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 26px;
+}
+
+/* TABLET --------------------------------------------*/
+@media (min-width: 769px) and (max-width: 992px) {
+  /* styles for screens 768 to 992px; (mobile) */
+  .content {
+    margin: 0;
+  }
+  /* HOW IT WORKS --------------------------------*/
+  .how-it-works .content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .steps {
+    gap: 30px;
+  }
+  /* RESTAURANTS --------------------------------*/
+  .restos .content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* FOOTER ----------------------------*/
+  .footer .content {
+    padding: 30px 30px 50px 30px;
+  }
+}
+/* DESKTOP --------------------------------------------*/
+@media (min-width: 993px) {
+  /* styles for screens 992px+ (Desktop) */
+  /* BACK IMAGE ----------------------------------------------- */
+  .back-img img {
+    transform: translateY(-30%);
+  }
+  /* MENU ----------------------------------------------- */
+  .menu {
+    margin-top: -30px;
+  }
+  .menu .content {
+    padding: 40px;
+  }
+  .menu .options {
+    flex-direction: row;
+  }
+  .order {
+    justify-content: flex-start;
+  }
+  /* FOOTER ---------------------------------------------- */
+  .footer .content {
+    padding: 30px 30px 50px 30px;
+  }
+}/*# sourceMappingURL=menu.css.map */
